@@ -1,0 +1,139 @@
+/*Estrutura do site
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/*******************
+Formatação do Topo*/
+#topo{
+    width: 100%;
+    height: 230px;
+    background: #fff url(../imagens/fundo.png) repeat-x left bottom;
+}
+
+.logo{
+    width: 12%;
+    margin-left: 265px;
+    margin-top: 20px;
+}
+
+.logo-acessibilidade{
+    position: absolute;
+    width: 12%;
+    margin-left: 20%;
+    margin-top: 20px;
+    text-indent: -3000px;
+}
+
+.detalhe-topo{
+    width: 13%;
+    margin-left: 840px;
+    margin-top: -90px;
+}
+
+#navegacao{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 265px;
+    z-index: 1;
+}
+
+#navegacao ul{
+    display: inline;
+    background-color: #b10333;
+    float: left;
+}
+
+#navegacao ul li{
+    float: left;
+}
+
+#navegacao ul li a{
+    font-size: 0.9em;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.25em;
+    line-height: 2.1em;
+    color: #fff;
+    font-weight: bold;
+    background: url(../imagens/divisor.png) no-repeat center left;
+}
+
+#navegacao ul .primeiro a{
+    background: none;
+}
+
+#navegacao ul li a:hover{
+    color: #69001d;
+}
+
+body.home #topo #navegacao a#home,
+body.brasil #topo #navegacao a#brasil,
+body.internacional #topo #navegacao a#internacional,
+body.economia #topo #navegacao a#economia,
+body.saude #topo #navegacao a#saude,
+body.ciencia #topo #navegacao a#ciencia,
+body.fotos #topo #navegacao a#fotos{
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+/*Fim formatação do topo
+************************/
+
+
+/* Configuração layout de três colunas */
+#conteudo{
+    width: 750px;
+    margin: 0 auto;
+    background: #f5f5f5;
+}
+
+#primario{
+    width: 270px;
+    background: blue;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    background: red;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral{
+    width: 180px;
+    background: yellow;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+
+
+
+/*Rodapé*/
+#rodape{
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape-conteudo{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
