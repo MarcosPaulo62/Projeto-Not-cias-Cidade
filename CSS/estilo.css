@@ -77,6 +77,7 @@ Formatação do Topo*/
 
 #navegacao ul li{
     float: left;
+    background: url(../imagens/divisor.png) no-repeat center left;
 }
 
 #navegacao ul li a{
@@ -87,10 +88,9 @@ Formatação do Topo*/
     line-height: 2.1em;
     color: #fff;
     font-weight: bold;
-    background: url(../imagens/divisor.png) no-repeat center left;
 }
 
-#navegacao ul .primeiro a{
+#navegacao ul .primeiro{
     background: none;
 }
 
